@@ -12,6 +12,7 @@
 	<parameter name="mysql_user" value="dscg" />
 	<parameter name="mysql_pwd" value="sailing" />
 
+
 	<test name="Test for this frame -- chrome">
 		<parameter name="DriverName" value="chrome" />
 		<classes>

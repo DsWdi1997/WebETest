@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0068ecc4-5c2f-46c4-937e-f9a93f80e746" name="Default Changelist" comment="" />
+    <list default="true" id="0068ecc4-5c2f-46c4-937e-f9a93f80e746" name="Default Changelist" comment="2020年7月27日-----Web自动化----编写TestCase">
+      <change afterPath="$PROJECT_DIR$/.idea/WebETest(mky).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/cases/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webtest/core/listenner/LogEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/listenner/LogEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -17,10 +27,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/DsWdi1997/WebETest.git" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Java\maven" />
         <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -35,20 +54,37 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1fFxyfJQLHnpkJUVXLRig1BtAIr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="webtest.core.listenner" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="webtest.core.util" />
       <recent name="webtest.core.listenner" />
@@ -105,11 +141,28 @@
       <option name="presentableId" value="Default" />
       <updated>1595827897572</updated>
       <workItem from="1595827900752" duration="10010000" />
+      <workItem from="1595856876953" duration="444000" />
+      <workItem from="1595857373062" duration="3429000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020年7月27日-----Web自动化----编写TestCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年7月27日-----Web自动化----编写TestCase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595838161839">
@@ -120,29 +173,63 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595838341674" />
-    <state x="71" y="196" key="FileChooserDialogImpl" timestamp="1595838710355">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2396" y="113" key="CommitChangelistDialog2" timestamp="1595864955108">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2396" y="113" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864955108" />
+    <state x="2258" y="178" key="DiffContextDialog" timestamp="1595864908874">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2258" y="178" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864908874" />
+    <state x="2009" y="247" key="FileChooserDialogImpl" timestamp="1595864965414">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2009" y="247" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864965414" />
     <state x="71" y="196" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595838710355" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595838357381">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1595862531597">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595862531597" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595838357381" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595838357381">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1595862531597">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595862531597" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595838357381" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595838357381">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1595862531596">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595862531596" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595838357381" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595838357381">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1595862531597">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595862531597" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595838357381" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595836980614">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2269" y="160" key="SettingsEditor" timestamp="1595857083414">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2269" y="160" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595857083414" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595864718223">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864718223" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595857373155">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595857373155" />
+    <state x="2644" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595863370634">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2644" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595863370634" />
+    <state x="2573" y="311" key="git4idea.merge.GitPullDialog" timestamp="1595864329089">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2573" y="311" key="git4idea.merge.GitPullDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864329089" />
+    <state x="2938" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1595864128234">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2938" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864128234" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595836980614" />
   </component>
 </project>

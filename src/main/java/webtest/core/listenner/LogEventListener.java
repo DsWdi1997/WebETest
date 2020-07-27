@@ -12,6 +12,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 /**
  * 用一个类扩展web driver自带的事件监听器，可以实现许多有趣的功能。 比如自动log a customer event listener
  */
+
 public class LogEventListener {
    private Log log = LogFactory.getLog(this.getClass());
 

@@ -1,4 +1,5 @@
 package webtest.core;
+import java.sql.DriverManager;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
@@ -41,6 +42,78 @@ public class TestCase {
      * @param firefoxPath	firefox.exe目录	默认启动默认安装路径的浏览器
      */
     @BeforeMethod(alwaysRun = true)
+    @Parameters({"DriverName","ChromeDriverPath","IeDriverPath","FirefoxDriverPath"})
+    protected void  testMethodStart(
+            @Optional("firefox") String driverName,
+            @Optional("chrome") String chromrPath,
+            @Optional("IE") String iePath,
+            @Optional("moren") String firefoxPath){
+        DriverManager.setupDriver(driverName,chromrPath,iePath,firefoxPath);
+    }
+
+    /**
+     * 在一个测试方法结束时关闭
+     */
+    @AfterMethod(alwaysRun =  true)
+    protected void testMethodEnd(){DriverManager.quitDriver();}
+
+    /**
+     * 打印类名。建议一个CASE只放一个方法
+     */
+    @BeforeClass(alwaysRun =  true)
+    protected void testCaseStart(){
+        //打印分隔符
+        log.info("####################################################");
+        //打印类名
+        log.info("\\/\\/\\/\\/\\/\\/---TestCase = "
+                + this.getClass().getSimpleName() + "---\\/\\/\\/\\/\\/\\/");
+    }
+    /**
+     * 再次打印类名
+     */
+    @AfterClass(alwaysRun = true)
+    protected void testCaseEnd() {
+        // 打印类名
+        log.info("/\\/\\/\\/\\/\\/\\---TestCase = "
+                + this.getClass().getSimpleName() + "---/\\/\\/\\/\\/\\/\\");
+        // 打印分隔符
+        log.info("#####################################################");
+    }
+
+
+    public static  class  DriverManager{
+
+        public static void setupDriver(String driverName, String chromrPath, String iePath, String firefoxPath) {
+
+        }
+
+        public static void quitDriver() {
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
