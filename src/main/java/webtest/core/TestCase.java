@@ -10,13 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import webtest.core.listenner.LogEventListener;
 import webtest.core.util.Mysql;
 
@@ -26,7 +20,7 @@ import static org.testng.Assert.assertEquals;
  * 2，提供一个log变量可以在每个case里直接用 3，在测试用例开始和结束时打log标明case名称 4，在测试方法开始和结束时启动和销毁浏览器
  * 5，由内部嵌套类DriverManager来负责创建和分配具体的driver
  */
-public class TestCase {
+                    public class TestCase {
     /**
      * 打log用的对象,this表示具体的子类。
      */
@@ -89,7 +83,8 @@ public class TestCase {
      * 初始化mysql配置信息
      */
     @Parameters({"mysql_url", "mysql_user", "mysql_pwd"})
-    @BeforeClass(alwaysRun = false)
+  // @BeforeClass(alwaysRun = false)
+    @Test
     protected void mysqlInit(String url, String user, String pwd) {
 
         System.out.println(url + user + pwd);
@@ -127,7 +122,7 @@ public class TestCase {
          * 而真正的新建driver是在Page类需要用到driver时
          * Page的构造方法里调用getDriver，然后getDriver检测发现当前线程没有driver时才会真正新建一个driver。
          */
-        public static String browserType = null;
+        public static String browserType = null ;
 
         /**
          * 如果当前进程没有绑定driver,创建一个然后绑定上，然后已经有了就直接返回。
@@ -166,7 +161,6 @@ public class TestCase {
          * @param iePath      ieServerDriver目录
          * @param firefoxPath firefox.exe目录
          */
-
         public static void setupDriver(String driverName, String chromrPath, String iePath, String firefoxPath) {
             browserType = driverName;
             switch (browserType) {
@@ -190,14 +184,5 @@ public class TestCase {
         }
     }
 
-    public static void main(String[] args) {
 
-    //实例化一个Chrome浏览器的实例
-        WebDriver driver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Desktop\\自动化测试脚本(mky)\\WebETest(mky)\\src\\main\\resources\\chromedriver.exe");
-    //设置隐性的等待时间
-        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-    //使用get()打开一个网站
-        driver.get("https://www.baidu.com");
-    }
 }
