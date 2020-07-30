@@ -1,11 +1,14 @@
 package webtest.core;
 import java.sql.DriverManager;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -51,7 +54,8 @@ import static org.testng.Assert.assertEquals;
      * 在一个测试方法结束时关闭
      */
     @AfterMethod(alwaysRun = true)
-    protected void testMethodEnd() {
+    protected void testMethodEnd() throws InterruptedException {
+        Thread.sleep(10000);
         DriverManager.quitDriver();
     }
 
@@ -82,17 +86,17 @@ import static org.testng.Assert.assertEquals;
     /**
      * 初始化mysql配置信息
      */
-    @Parameters({"mysql_url", "mysql_user", "mysql_pwd"})
-  // @BeforeClass(alwaysRun = false)
-    @Test
-    protected void mysqlInit(String url, String user, String pwd) {
 
+    /**
+    @Parameters({"mysql_url", "mysql_user", "mysql_pwd"})
+    @BeforeClass(alwaysRun = true)
+    protected void mysqlInit(String url, String user, String pwd) {
         System.out.println(url + user + pwd);
         sql.setUrl(url);
         sql.setUserName(user);
         sql.setPassWord(pwd);
     }
-
+*/
     /**
      * 使用testNG.xml 里的数据库配置连接数据库并
      * 用当前执行的测试类 完整包名+类名 作为用例名称为条件去数据库查找 测试用例数据
@@ -127,10 +131,11 @@ import static org.testng.Assert.assertEquals;
         /**
          * 如果当前进程没有绑定driver,创建一个然后绑定上，然后已经有了就直接返回。
          */
-
+        //private  static WebDriver driver ;
+        private  static  WebDriver driver = DriverManager.ThreadDriver.get();
         public static WebDriver getDriver() {
-            WebDriver driver = DriverManager.ThreadDriver.get();
-            if (driver == null) {
+            // WebDriver driver = DriverManager.ThreadDriver.get();
+               if (driver == null) {
                 switch (browserType) {
                     case "ie":
                         driver = new EventFiringWebDriver(new InternetExplorerDriver()).register(new LogEventListener());
@@ -145,10 +150,12 @@ import static org.testng.Assert.assertEquals;
                         ThreadDriver.set(driver);
                         break;
                 }
-
                 //找东西前等待3秒
                 DriverManager.getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-            }
+           }
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
             return driver;
         }
 
@@ -161,13 +168,16 @@ import static org.testng.Assert.assertEquals;
          * @param iePath      ieServerDriver目录
          * @param firefoxPath firefox.exe目录
          */
+
         public static void setupDriver(String driverName, String chromrPath, String iePath, String firefoxPath) {
             browserType = driverName;
             switch (browserType) {
                 case "ie":
+                    System.out.println("IE浏览器Iedriver驱动地址:"+iePath);
                     System.setProperty("webdriver." + browserType + ".driver", iePath);
                     break;
                 case "chrome":
+                    System.out.println("谷歌ChromeDriver驱动地址:"+chromrPath);
                     System.setProperty("webdriver." + browserType + ".driver", chromrPath);
                     break;
                 case "firefox":
@@ -179,8 +189,9 @@ import static org.testng.Assert.assertEquals;
         }
 
         public static void quitDriver() {
-            getDriver().quit();
-            DriverManager.ThreadDriver.set(null);
+            driver.quit();
+            //getDriver().quit();
+            //DriverManager.ThreadDriver.set(null);
         }
     }
 

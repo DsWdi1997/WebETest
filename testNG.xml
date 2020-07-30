@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="cbt-test" verbose="1">
+<suite name="启动浏览器" parallel= "methods" verbose="1" thread-count="2" >
+
 	<!--
         <listeners>
             <listener class-name="webtest.core.listenner.DotTestListener"></listener>
         </listeners>
  -->
         <!-- 测试数据存放地址 -->
-	<parameter name="mysql_url" value="jdbc:mysql://172.20.52.115:3306/testdata?characterEncoding=UTF-8" />
-	<parameter name="mysql_user" value="dscg" />
-	<parameter name="mysql_pwd" value="sailing" />
+	<!--	<parameter name="mysql_url" value="jdbc:mysql://172.20.52.115:3306/testdata?characterEncoding=UTF-8" />
+        <parameter name="mysql_user" value="dscg" />
+        <parameter name="mysql_pwd" value="sailing" />
+   -->
 
-	<test name="Test for this frame -- chrome">
-		<parameter name="driverName" value="chrome"/>
-		<parameter name="baidu_url" value="http://www.baidu.com"/>
-		<classes>
-			<class name="cases.DemoTest"></class>
-		</classes>
-	</test>
 
-<!--	<test name="Test for this frame - ie">
-		<parameter name="DriverName" value="ie" />
-	<classes>
-			<class name="cases.DemoTest"></class>
-		</classes>
-	</test>
--->
+        <!-- 启动谷歌浏览器-->
+        <test name="启动谷歌浏览器--访问百度">
+            <parameter name="DriverName" value="chrome"/>
+            <parameter name="ChromeDriverPath" value="C:\Users\Dell\Desktop\自动化(mky)\WebETest\src\main\resources\chromedriver.exe"/>
+            <parameter name="baidu_url" value="http://www.baidu.com"/>
+            <parameter name="Inputbox" value="测试"/>
+            <classes>
+                <class name="cases.DemoTest"></class>
+            </classes>
+        </test>
 	<!--
 	<test name="testfront  Chrome测试谷歌浏览器">
 		<parameter name="DriverName" value="chrome" />
