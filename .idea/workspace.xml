@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0068ecc4-5c2f-46c4-937e-f9a93f80e746" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/webtest/core/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page/Chandaopage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cases/DemoTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/daily.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/daily.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/Baidupage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page/Baidupage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cases/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cases/DemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
@@ -106,10 +105,41 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Dell/Desktop/自动化(mky)/WebETest/testNG.xml">
+    <configuration name="DemoTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cases.DemoTest2" />
+      <module name="WebETest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Dell/Desktop/自动化(mky)/WebETest/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebETest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest2.testIsBetween" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebETest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cases" />
+      <option name="MAIN_CLASS_NAME" value="cases.DemoTest2" />
+      <option name="METHOD_NAME" value="testIsBetween" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,49 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCaseImpl.baidu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebETest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webtest.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webtest.core" />
-      <option name="MAIN_CLASS_NAME" value="webtest.core.TestCaseImpl" />
-      <option name="METHOD_NAME" value="baidu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCase.baidu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebETest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webtest.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webtest.core" />
-      <option name="MAIN_CLASS_NAME" value="webtest.core.TestCase" />
-      <option name="METHOD_NAME" value="baidu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Dell/Desktop/自动化(mky)/WebETest/testNG.xml" />
+        <item itemvalue="TestNG.DemoTest2.testIsBetween" />
+        <item itemvalue="Application.DemoTest2" />
         <item itemvalue="TestNG.DemoTest.baidu" />
         <item itemvalue="TestNG.TestCaseImpl" />
-        <item itemvalue="TestNG.TestCaseImpl.baidu" />
-        <item itemvalue="TestNG.TestCase.baidu" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +224,9 @@
       <workItem from="1596012757502" duration="16000" />
       <workItem from="1596012801120" duration="178000" />
       <workItem from="1596072489274" duration="11758000" />
-      <workItem from="1596093313827" duration="4877000" />
+      <workItem from="1596093313827" duration="4986000" />
+      <workItem from="1596160909755" duration="270000" />
+      <workItem from="1596161198608" duration="10652000" />
     </task>
     <task id="LOCAL-00001" summary="2020年7月27日-----Web自动化----编写TestCase">
       <created>1595865219663</created>
@@ -253,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596012913304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020年7月30日-----浏览器成功----调试并发">
+      <created>1596099095295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596099095295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,17 +278,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020年7月27日-----Web自动化----编写TestCase" />
     <MESSAGE value="2020年7月29---修改testNg.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年7月29---修改testNg.xml" />
+    <MESSAGE value="2020年7月30日-----浏览器成功----调试并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年7月30日-----浏览器成功----调试并发" />
   </component>
   <component name="WindowStateProjectService">
     <state x="467" y="107" key="#TestCase" timestamp="1596003755905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="107" key="#TestCase/0.0.1536.824@0.0.1536.824" timestamp="1596003755905" />
-    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596092164811">
+    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596161852817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596092164811" />
+    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596161852817" />
     <state x="549" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1596003641388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -298,70 +302,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595838341674" />
-    <state x="381" y="13" key="CommitChangelistDialog2" timestamp="1596012910054">
+    <state x="381" y="13" key="CommitChangelistDialog2" timestamp="1596099092906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2396" y="113" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595946684454" />
-    <state x="381" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596012910054" />
+    <state x="381" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596099092906" />
     <state x="2258" y="178" key="DiffContextDialog" timestamp="1595865575561">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2258" y="178" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595865575561" />
-    <state x="71" y="196" key="FileChooserDialogImpl" timestamp="1596003710639">
+    <state x="71" y="196" key="FileChooserDialogImpl" timestamp="1596162593041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2009" y="247" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595864965414" />
-    <state x="71" y="196" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596003710639" />
-    <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1596098313475">
+    <state x="71" y="196" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596162593041" />
+    <state width="1493" height="364" key="GridCell.Tab.0.bottom" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595946585780" />
-    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596098313475" />
-    <state width="1493" height="216" key="GridCell.Tab.0.center" timestamp="1596098313475">
+    <state width="1493" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.0.center" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595946585780" />
-    <state width="1493" height="216" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596098313475" />
-    <state width="1493" height="216" key="GridCell.Tab.0.left" timestamp="1596098313475">
+    <state width="1493" height="364" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.0.left" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595946585780" />
-    <state width="1493" height="216" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596098313475" />
-    <state width="1493" height="216" key="GridCell.Tab.0.right" timestamp="1596098313475">
+    <state width="1493" height="364" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.0.right" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595946585780" />
-    <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596098313475" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596093261120">
+    <state width="1493" height="364" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.1.bottom" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596093261120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1596093261120">
+    <state width="1493" height="364" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.1.center" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596093261120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1596093261120">
+    <state width="1493" height="364" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.1.left" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596093261120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1596093261120">
+    <state width="1493" height="364" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
+    <state width="1493" height="364" key="GridCell.Tab.1.right" timestamp="1596175811482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596093261120" />
+    <state width="1493" height="364" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596175811482" />
     <state x="2269" y="160" key="SettingsEditor" timestamp="1595857083414">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2269" y="160" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595857083414" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1596012939400">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1596099110200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595946618672" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596012939400" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1596093313462">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596099110200" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1596161243299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595940360589" />
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596093313462" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596161243299" />
     <state x="2644" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595863370634">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

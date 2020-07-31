@@ -40,7 +40,7 @@ import static org.testng.Assert.assertEquals;
      * @param iePath      ieServerDriver目录	默认使用resources下的driver启动默认安装路径的浏览器
      * @param firefoxPath firefox.exe目录	默认启动默认安装路径的浏览器
      */
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod (alwaysRun = true)
     @Parameters({"DriverName", "ChromeDriverPath", "IeDriverPath", "FirefoxDriverPath"})
     protected void testMethodStart(
             @Optional("firefox") String driverName,
@@ -53,7 +53,8 @@ import static org.testng.Assert.assertEquals;
     /**
      * 在一个测试方法结束时关闭
      */
-    @AfterMethod(alwaysRun = true)
+
+    @AfterClass(alwaysRun = true)
     protected void testMethodEnd() throws InterruptedException {
         Thread.sleep(10000);
         DriverManager.quitDriver();
@@ -136,7 +137,7 @@ import static org.testng.Assert.assertEquals;
         public static WebDriver getDriver() {
             // WebDriver driver = DriverManager.ThreadDriver.get();
                if (driver == null) {
-                switch (browserType) {
+                 switch (browserType) {
                     case "ie":
                         driver = new EventFiringWebDriver(new InternetExplorerDriver()).register(new LogEventListener());
                         ThreadDriver.set(driver);
@@ -155,7 +156,8 @@ import static org.testng.Assert.assertEquals;
            }
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
+            //String handle = driver.getWindowHandle();
+            //System.out.println(handle);
             return driver;
         }
 

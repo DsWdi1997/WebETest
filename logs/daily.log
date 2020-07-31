@@ -1,53 +1,107 @@
-[INFO][2020-07-30 13:54:58]####################################################
-[INFO][2020-07-30 13:54:58]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 13:55:31]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 13:55:31]#####################################################
-[INFO][2020-07-30 13:56:55]####################################################
-[INFO][2020-07-30 13:56:55]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 13:57:14]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 13:57:14]#####################################################
-[INFO][2020-07-30 13:58:26]####################################################
-[INFO][2020-07-30 13:58:26]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 13:58:36]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 13:58:36]#####################################################
-[INFO][2020-07-30 14:07:31]####################################################
-[INFO][2020-07-30 14:07:31]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:07:49]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:07:49]#####################################################
-[INFO][2020-07-30 14:14:48]####################################################
-[INFO][2020-07-30 14:14:48]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:15:07]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:15:07]#####################################################
-[INFO][2020-07-30 14:16:31]####################################################
-[INFO][2020-07-30 14:16:31]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:16:49]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:16:49]#####################################################
-[INFO][2020-07-30 14:30:54]####################################################
-[INFO][2020-07-30 14:30:54]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:30:59]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 14:31:11]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:31:11]#####################################################
-[INFO][2020-07-30 14:36:24]####################################################
-[INFO][2020-07-30 14:36:24]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:36:28]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 14:36:41]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:36:41]#####################################################
-[INFO][2020-07-30 14:38:37]####################################################
-[INFO][2020-07-30 14:38:37]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:38:41]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 14:38:53]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:38:53]#####################################################
-[INFO][2020-07-30 14:38:53]####################################################
-[INFO][2020-07-30 14:38:53]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:38:53]WebDriver navigatting to:' http://www.baidu.com'
-[ERROR][2020-07-30 14:38:53]WebDriver error:
-org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DESKTOP-DR4NCM4', ip: '172.20.50.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: EventFiringWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+[INFO][2020-07-31 10:18:07]####################################################
+[INFO][2020-07-31 10:18:07]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:18:13]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:18:14]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:18:14]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:18:14]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:18:14] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:18:14] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:18:26]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:18:26]#####################################################
+[INFO][2020-07-31 10:19:37]####################################################
+[INFO][2020-07-31 10:19:37]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:19:37]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:19:37]#####################################################
+[INFO][2020-07-31 10:20:05]####################################################
+[INFO][2020-07-31 10:20:05]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:20:05]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:20:05]#####################################################
+[INFO][2020-07-31 10:20:44]####################################################
+[INFO][2020-07-31 10:20:44]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:20:54]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:20:54]#####################################################
+[INFO][2020-07-31 10:21:28]####################################################
+[INFO][2020-07-31 10:21:28]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:21:38]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:21:38]#####################################################
+[INFO][2020-07-31 10:22:38]####################################################
+[INFO][2020-07-31 10:22:38]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:22:38]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:22:38]#####################################################
+[INFO][2020-07-31 10:24:11]####################################################
+[INFO][2020-07-31 10:24:11]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:24:11]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:24:11]#####################################################
+[INFO][2020-07-31 10:27:48]####################################################
+[INFO][2020-07-31 10:27:48]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:27:53]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:27:54]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:27:54] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:28:06]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:28:06]#####################################################
+[INFO][2020-07-31 10:29:27]####################################################
+[INFO][2020-07-31 10:29:27]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:29:32]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:29:33]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:29:33] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:29:44]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:29:44]#####################################################
+[INFO][2020-07-31 10:30:05]####################################################
+[INFO][2020-07-31 10:30:05]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:30:10]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:30:11]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:30:11] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:30:22]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:30:22]#####################################################
+[INFO][2020-07-31 10:31:01]####################################################
+[INFO][2020-07-31 10:31:01]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:31:06]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:31:07]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:31:07] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:31:18]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:31:18]#####################################################
+[INFO][2020-07-31 10:33:25]####################################################
+[INFO][2020-07-31 10:33:25]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:33:29]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:33:30]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:33:30] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:33:42]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:33:42]#####################################################
+[INFO][2020-07-31 10:34:27]####################################################
+[INFO][2020-07-31 10:34:27]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 10:34:32]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 10:34:33]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 10:34:33] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 10:34:45]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 10:34:45]#####################################################
+[INFO][2020-07-31 11:29:08]####################################################
+[INFO][2020-07-31 11:29:08]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 11:29:13]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 11:29:14]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 11:29:14] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 11:29:25]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 11:29:25]#####################################################
+[INFO][2020-07-31 11:39:25]####################################################
+[INFO][2020-07-31 11:39:25]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 11:39:35]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 11:39:35]#####################################################
+[INFO][2020-07-31 11:40:23]####################################################
+[INFO][2020-07-31 11:40:23]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 11:40:33]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 11:40:33]#####################################################
+[INFO][2020-07-31 11:41:10]####################################################
+[INFO][2020-07-31 11:41:10]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 11:41:21]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 11:41:21]#####################################################
+[INFO][2020-07-31 11:43:37]####################################################
+[INFO][2020-07-31 11:43:37]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 11:43:42]WebDriver navigatting to:' null'
+[ERROR][2020-07-31 11:43:42]WebDriver error:
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:49)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:70)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -56,7 +110,7 @@ Driver info: driver.version: EventFiringWebDriver
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
 	at com.sun.proxy.$Proxy11.get(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
-	at cases.DemoTest.baidu(DemoTest.java:15)
+	at cases.DemoTest2.testIsBetween(DemoTest2.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,37 +134,192 @@ Driver info: driver.version: EventFiringWebDriver
 	at org.testng.TestNG.run(TestNG.java:1057)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-[INFO][2020-07-30 14:39:03]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:39:03]#####################################################
-[INFO][2020-07-30 14:42:08]####################################################
-[INFO][2020-07-30 14:42:08]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:42:08]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:42:08]#####################################################
-[INFO][2020-07-30 14:42:16]####################################################
-[INFO][2020-07-30 14:42:16]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:42:20]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 14:42:32]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:42:32]#####################################################
-[INFO][2020-07-30 14:42:32]####################################################
-[INFO][2020-07-30 14:42:32]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 14:42:32]WebDriver navigatting to:' http://www.baidu.com'
-[ERROR][2020-07-30 14:42:32]WebDriver error:
-org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+[INFO][2020-07-31 11:43:53]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 11:43:53]#####################################################
+[INFO][2020-07-31 11:44:08]####################################################
+[INFO][2020-07-31 11:44:08]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 11:44:14]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 11:44:15]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 11:44:15] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 11:44:26]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 11:44:26]#####################################################
+[INFO][2020-07-31 11:44:33]####################################################
+[INFO][2020-07-31 11:44:33]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 11:44:38]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 11:44:39]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 11:44:39] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 11:44:50]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 11:44:50]#####################################################
+[INFO][2020-07-31 13:03:27]####################################################
+[INFO][2020-07-31 13:03:27]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:03:27]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:03:27]#####################################################
+[INFO][2020-07-31 13:04:43]####################################################
+[INFO][2020-07-31 13:04:43]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:04:43]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:04:43]#####################################################
+[INFO][2020-07-31 13:06:12]####################################################
+[INFO][2020-07-31 13:06:12]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:06:17]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:06:18]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:06:18] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:06:30]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:06:30]#####################################################
+[INFO][2020-07-31 13:06:45]####################################################
+[INFO][2020-07-31 13:06:45]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:06:50]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:06:51]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:06:51] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:07:13]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:07:13]#####################################################
+[INFO][2020-07-31 13:09:12]####################################################
+[INFO][2020-07-31 13:09:12]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:09:34]####################################################
+[INFO][2020-07-31 13:09:34]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:09:39]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:09:41]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:09:41] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:10:02]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:10:02]#####################################################
+[INFO][2020-07-31 13:10:08]####################################################
+[INFO][2020-07-31 13:10:08]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:10:14]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:10:15]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:10:15] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:10:36]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:10:36]#####################################################
+[INFO][2020-07-31 13:11:21]####################################################
+[INFO][2020-07-31 13:11:21]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:11:43]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:11:43]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:11:44] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:12:15]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:12:15]#####################################################
+[INFO][2020-07-31 13:31:03]####################################################
+[INFO][2020-07-31 13:31:03]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:31:09]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:31:10]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:31:10] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:31:31]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:31:31]#####################################################
+[INFO][2020-07-31 13:32:40]####################################################
+[INFO][2020-07-31 13:32:40]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:32:45]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:32:46]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:32:47] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:33:08]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:33:08]#####################################################
+[INFO][2020-07-31 13:34:18]####################################################
+[INFO][2020-07-31 13:34:18]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:34:22]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:34:23]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:34:23] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:34:45]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:34:45]#####################################################
+[INFO][2020-07-31 13:36:28]####################################################
+[INFO][2020-07-31 13:36:28]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:36:32]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:36:32]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:36:34]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:36:34]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:36:34] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:36:34] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:36:45]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:36:45]#####################################################
+[INFO][2020-07-31 13:37:44]####################################################
+[INFO][2020-07-31 13:37:44]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:37:48]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:37:49]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:37:50]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:37:50]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:37:50] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:37:50] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:38:01]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:38:01]#####################################################
+[INFO][2020-07-31 13:38:53]####################################################
+[INFO][2020-07-31 13:38:53]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:38:57]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:38:57]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:38:58]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:38:58]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:38:58] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:38:58] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:38:58]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:38:58]#####################################################
+[INFO][2020-07-31 13:39:27]####################################################
+[INFO][2020-07-31 13:39:27]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:39:31]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:39:31]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:39:32]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:39:32]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:39:32] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:39:32] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:39:32]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:39:32]#####################################################
+[INFO][2020-07-31 13:39:59]####################################################
+[INFO][2020-07-31 13:39:59]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:40:03]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:40:03]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:40:05]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:40:05]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:40:05] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:40:05] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:40:05]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:40:05]#####################################################
+[INFO][2020-07-31 13:43:38]####################################################
+[INFO][2020-07-31 13:43:38]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:43:44]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:43:44]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:43:45]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:43:45]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:43:45] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:43:45] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:43:45]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:43:45]#####################################################
+[INFO][2020-07-31 13:45:03]####################################################
+[INFO][2020-07-31 13:45:03]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:45:09]WebDriver navigatting to:' http://www.baidu.com'
+[ERROR][2020-07-31 13:45:10]WebDriver error:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'DESKTOP-DR4NCM4', ip: '172.20.50.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: EventFiringWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:27166}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir21620_1655999161}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 445cb5a78c0232b289fa9442ea0f99ee
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:150)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy11.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
-	at cases.DemoTest.baidu(DemoTest.java:15)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy13.getAttribute(Unknown Source)
+	at webtest.core.listenner.LogEventListener.afterChangeValueOf(LogEventListener.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:80)
+	at com.sun.proxy.$Proxy9.afterChangeValueOf(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:359)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at cases.DemoTest.VisitBaidu1(DemoTest.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -121,151 +330,121 @@ Driver info: driver.version: EventFiringWebDriver
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-[INFO][2020-07-30 14:42:42]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 14:42:42]#####################################################
-[INFO][2020-07-30 15:09:15]####################################################
-[INFO][2020-07-30 15:09:15]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:09:15]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:09:15]#####################################################
-[INFO][2020-07-30 15:10:07]####################################################
-[INFO][2020-07-30 15:10:07]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:10:07]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:10:07]#####################################################
-[INFO][2020-07-30 15:10:43]####################################################
-[INFO][2020-07-30 15:10:43]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:10:43]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:10:43]#####################################################
-[INFO][2020-07-30 15:10:52]####################################################
-[INFO][2020-07-30 15:10:52]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:10:52]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:10:52]#####################################################
-[INFO][2020-07-30 15:11:07]####################################################
-[INFO][2020-07-30 15:11:07]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:11:07]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:11:07]#####################################################
-[INFO][2020-07-30 15:12:41]####################################################
-[INFO][2020-07-30 15:12:41]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:12:41]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:12:41]#####################################################
-[INFO][2020-07-30 15:14:12]####################################################
-[INFO][2020-07-30 15:14:12]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:14:12]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:14:12]#####################################################
-[INFO][2020-07-30 15:14:12]####################################################
-[INFO][2020-07-30 15:14:12]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:14:12]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:14:12]#####################################################
-[INFO][2020-07-30 15:15:53]####################################################
-[INFO][2020-07-30 15:15:53]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:15:57]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 15:16:08]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:16:08]#####################################################
-[INFO][2020-07-30 15:16:24]####################################################
-[INFO][2020-07-30 15:16:24]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:16:24]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:16:24]#####################################################
-[INFO][2020-07-30 15:17:31]####################################################
-[INFO][2020-07-30 15:17:31]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:17:35]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 15:17:36]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 15:17:47]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:17:47]#####################################################
-[INFO][2020-07-30 15:21:49]####################################################
-[INFO][2020-07-30 15:21:49]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:21:53]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 15:21:54]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 15:21:55] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 15:22:06]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:22:06]#####################################################
-[INFO][2020-07-30 15:32:38]####################################################
-[INFO][2020-07-30 15:32:38]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:32:42]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 15:32:43]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 15:32:43] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 15:32:54]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:32:54]#####################################################
-[INFO][2020-07-30 15:33:05]####################################################
-[INFO][2020-07-30 15:33:05]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:33:05]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:33:05]#####################################################
-[INFO][2020-07-30 15:44:33]####################################################
-[INFO][2020-07-30 15:44:33]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:44:33]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:44:33]#####################################################
-[INFO][2020-07-30 15:44:33]####################################################
-[INFO][2020-07-30 15:44:33]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:44:44]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:44:44]#####################################################
-[INFO][2020-07-30 15:47:03]####################################################
-[INFO][2020-07-30 15:47:03]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:47:03]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:47:03]#####################################################
-[INFO][2020-07-30 15:47:03]####################################################
-[INFO][2020-07-30 15:47:03]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:47:13]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:47:13]#####################################################
-[INFO][2020-07-30 15:50:49]####################################################
-[INFO][2020-07-30 15:50:49]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:50:59]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:50:59]#####################################################
-[INFO][2020-07-30 15:52:33]####################################################
-[INFO][2020-07-30 15:52:33]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:52:37]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 15:52:38]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 15:52:38] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 15:52:49]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:52:49]#####################################################
-[INFO][2020-07-30 15:54:54]####################################################
-[INFO][2020-07-30 15:54:54]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 15:54:58]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 15:54:59]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 15:54:59] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 15:55:10]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 15:55:10]#####################################################
-[INFO][2020-07-30 16:22:40]####################################################
-[INFO][2020-07-30 16:22:40]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 16:22:45]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 16:22:46]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 16:22:47] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 16:22:58]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 16:22:58]#####################################################
-[INFO][2020-07-30 16:30:50]####################################################
-[INFO][2020-07-30 16:30:50]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 16:30:56]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 16:30:56]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 16:30:57]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 16:30:57]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 16:30:57] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 16:30:57] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 16:31:09]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 16:31:09]#####################################################
-[INFO][2020-07-30 16:34:35]####################################################
-[INFO][2020-07-30 16:34:35]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 16:34:40]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 16:34:40]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 16:34:41]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 16:34:41]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 16:34:41] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 16:34:41] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 16:34:53]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 16:34:53]#####################################################
-[INFO][2020-07-30 16:38:35]####################################################
-[INFO][2020-07-30 16:38:35]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
-[INFO][2020-07-30 16:38:40]WebDriver navigatting to:' http://www.baidu.com'
-[INFO][2020-07-30 16:38:41]WebDriver changing value in element found By.id: kw from '  ' to 'null
-[INFO][2020-07-30 16:38:41] WebDriver clicking on: ' id: su'
-[INFO][2020-07-30 16:39:03]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
-[INFO][2020-07-30 16:39:03]#####################################################
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO][2020-07-31 13:45:10]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:45:10]#####################################################
+[INFO][2020-07-31 13:48:16]####################################################
+[INFO][2020-07-31 13:48:16]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:48:21]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:48:21]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:48:23]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:48:23]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:48:23] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:48:23] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:48:23]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:48:23]#####################################################
+[INFO][2020-07-31 13:52:09]####################################################
+[INFO][2020-07-31 13:52:09]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2020-07-31 13:52:15]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:52:15]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:52:17]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:52:17]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:52:17] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:52:17] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:52:17]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2020-07-31 13:52:17]#####################################################
+[INFO][2020-07-31 13:55:31]####################################################
+[INFO][2020-07-31 13:55:31]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 13:55:37]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:55:37]WebDriver navigatting to:' http://www.baidu.com'
+[INFO][2020-07-31 13:55:38]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:55:38]WebDriver changing value in element found By.id: kw from '  ' to 'null
+[INFO][2020-07-31 13:55:38] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:55:38] WebDriver clicking on: ' id: su'
+[INFO][2020-07-31 13:55:38]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 13:55:38]#####################################################
+[INFO][2020-07-31 14:04:16]####################################################
+[INFO][2020-07-31 14:04:16]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[ERROR][2020-07-31 14:04:27]WebDriver error:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.84 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-DR4NCM4', ip: '172.20.50.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28622}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\Dell\AppData\Local\Temp\scoped_dir10172_227057889}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 17900038231e655eafb7a215a5c7440c
+*** Element info: {Using=id, value=account}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at cases.DemoTest2.testIsBetween(DemoTest2.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO][2020-07-31 14:04:27]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 14:04:27]#####################################################
+[INFO][2020-07-31 14:05:14]####################################################
+[INFO][2020-07-31 14:05:14]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 14:05:19]WebDriver navigatting to:' http://172.20.52.101/zentao/user-login.html'
+[INFO][2020-07-31 14:05:20]WebDriver navigatting to:' http://172.20.52.101/zentao/user-login.html'
+[INFO][2020-07-31 14:05:20]WebDriver changing value in element found By.id: account from '  ' to 'null
+[INFO][2020-07-31 14:05:20]WebDriver changing value in element found By.id: account from '  ' to 'null
+[INFO][2020-07-31 14:05:20]WebDriver changing value in element found By.name: password from '  ' to 'null
+[INFO][2020-07-31 14:05:20]WebDriver changing value in element found By.name: password from '  ' to 'null
+[INFO][2020-07-31 14:05:20]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 14:05:20]#####################################################
+[INFO][2020-07-31 14:06:24]####################################################
+[INFO][2020-07-31 14:06:24]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 14:06:29]WebDriver navigatting to:' http://172.20.52.101/zentao/user-login.html'
+[INFO][2020-07-31 14:06:29]WebDriver navigatting to:' http://172.20.52.101/zentao/user-login.html'
+[INFO][2020-07-31 14:06:30]WebDriver changing value in element found By.id: account from '  ' to 'null
+[INFO][2020-07-31 14:06:30]WebDriver changing value in element found By.id: account from '  ' to 'null
+[INFO][2020-07-31 14:06:30]WebDriver changing value in element found By.name: password from '  ' to 'null
+[INFO][2020-07-31 14:06:30]WebDriver changing value in element found By.name: password from '  ' to 'null
+[INFO][2020-07-31 14:06:30]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 14:06:30]#####################################################
+[INFO][2020-07-31 14:09:24]####################################################
+[INFO][2020-07-31 14:09:24]\/\/\/\/\/\/---TestCase = DemoTest2---\/\/\/\/\/\/
+[INFO][2020-07-31 14:09:30]WebDriver navigatting to:' http://172.20.52.101/zentao/user-login.html'
+[INFO][2020-07-31 14:09:30]WebDriver navigatting to:' http://172.20.52.101/zentao/user-login.html'
+[INFO][2020-07-31 14:09:30]WebDriver changing value in element found By.id: account from '  ' to 'null
+[INFO][2020-07-31 14:09:30]WebDriver changing value in element found By.id: account from '  ' to 'null
+[INFO][2020-07-31 14:09:30]WebDriver changing value in element found By.name: password from '  ' to 'null
+[INFO][2020-07-31 14:09:30]WebDriver changing value in element found By.name: password from '  ' to 'null
+[INFO][2020-07-31 14:09:30]/\/\/\/\/\/\---TestCase = DemoTest2---/\/\/\/\/\/\
+[INFO][2020-07-31 14:09:30]#####################################################

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="启动浏览器" parallel= "methods" verbose="1" thread-count="2" >
+<suite name="启动浏览器"  verbose="1"  >
 
 	<!--
         <listeners>
@@ -14,9 +14,8 @@
         <parameter name="mysql_pwd" value="sailing" />
    -->
 
-
-        <!-- 启动谷歌浏览器-->
-        <test name="启动谷歌浏览器--访问百度">
+            <!-- 启动谷歌浏览器
+        <test name="启动谷歌浏览器-访问百度(1)">
             <parameter name="DriverName" value="chrome"/>
             <parameter name="ChromeDriverPath" value="C:\Users\Dell\Desktop\自动化(mky)\WebETest\src\main\resources\chromedriver.exe"/>
             <parameter name="baidu_url" value="http://www.baidu.com"/>
@@ -25,6 +24,19 @@
                 <class name="cases.DemoTest"></class>
             </classes>
         </test>
+    -->
+
+    <test name="启动谷歌浏览器--访问百度(1)">
+        <parameter name="DriverName" value="chrome"/>
+        <parameter name="ChromeDriverPath" value="C:\Users\Dell\Desktop\自动化(mky)\WebETest\src\main\resources\chromedriver.exe"/>
+        <classes>
+            <class name="cases.DemoTest2"></class>
+        </classes>
+    </test>
+
+
+
+
 	<!--
 	<test name="testfront  Chrome测试谷歌浏览器">
 		<parameter name="DriverName" value="chrome" />
